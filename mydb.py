@@ -13,5 +13,5 @@ cursorObject.execute("CREATE DATABASE elderco")
 
 print("All done!")
 
-# cursorObject.close()
-# database.close()
+cursorObject.close()
+database.close()
